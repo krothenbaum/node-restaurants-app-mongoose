@@ -83,6 +83,7 @@ app.post('/restaurants', (req, res) => {
 });
 
 
+//edit restaurant
 app.put('/restaurants/:id', (req, res) => {
   // ensure that the id in the request path and the one in request body match
   if (!(req.params.id && req.body.id && req.params.id === req.body.id)) {
