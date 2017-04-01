@@ -54,7 +54,7 @@ app.get('/restaurants/:id', (req, res) => {
     });
 });
 
-
+//add restaurant
 app.post('/restaurants', (req, res) => {
 
   const requiredFields = ['name', 'borough', 'cuisine'];
